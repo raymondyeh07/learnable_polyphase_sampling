@@ -1,0 +1,6 @@
+{
+    "mode":"on_epoch",
+    "rate":"linear",
+    "milestones":[80,125],
+    "temperatures":[0.3,0.125]
+}

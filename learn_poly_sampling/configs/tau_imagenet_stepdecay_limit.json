@@ -1,0 +1,6 @@
+{
+    "step_size":10,
+    "gamma":0.825,
+    "mode":"on_epoch",
+    "min_value":0.025
+}
