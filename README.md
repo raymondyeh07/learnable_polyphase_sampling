@@ -41,13 +41,7 @@ conda env create -f env_reqs.yml
 ## Run Tests
 Our paper results can be reproduced using the scripts included in ***learn_poly_sampling/scripts***.
 
-1. #### Experiments on Image Classification (CIFAR-10)
-
-- Download the CIFAR-10 dataset from its [official repository](https://www.cs.toronto.edu/~kriz/cifar.html) and uncompress it into the dataset folder (e.g. `/learn_poly_sampling/datasets/cifar-10-batches-py`).
-
-- Classification accuracy or shift consistency can be computed by setting the `--eval_mode` flag as either `class_accuracy` or `shift_consistency`, respectively.
-
-2. #### Experiments on Image Classification (ImageNet)
+#### Experiments on Image Classification (ImageNet)
 
 - Download the ILSVRC2012 dataset from its [official repository](https://image-net.org/challenges/LSVRC/2012/), uncompress it into the dataset folder (e.g. `/learn_poly_sampling/datasets/ILSVRC2012`) and split it into train and test partitions using [this script](https://raw.githubusercontent.com/soumith/imagenetloader.torch/master/valprep.sh).
 
