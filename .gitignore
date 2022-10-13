@@ -138,9 +138,3 @@ datasets/
 
 # Neptune config
 learn_poly_sampling/.neptune
-
-# Bashscripts
-learn_poly_sampling/scripts/
-
-# Public checkpoints
-checkpoints/
