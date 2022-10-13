@@ -10,4 +10,4 @@ python3 ${root}/eval.py\
   --batchsize 64\
   --eval_mode class_accuracy\
   --shift_seed 7\
-  --checkpoint ${logdir}/public/ResNet50_LPS_LPF3_zero_randomresized.ckpt
+  --checkpoint ${cpdir}/classification/ResNet50_LPS_LPF3_zero_randomresized.ckpt
