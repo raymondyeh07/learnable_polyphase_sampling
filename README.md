@@ -38,14 +38,10 @@ For a full list of requirements, please refer to ***learn_poly_sampling/env_reqs
 conda env create -f env_reqs.yml
 ```
 
-## Run Tests
-Our paper results can be reproduced using the scripts included in ***learn_poly_sampling/scripts***.
-
-#### Experiments on Image Classification (ImageNet)
-
-- Download the ILSVRC2012 dataset from its [official repository](https://image-net.org/challenges/LSVRC/2012/), uncompress it into the dataset folder (e.g. `/learn_poly_sampling/datasets/ILSVRC2012`) and split it into train and test partitions using [this script](https://raw.githubusercontent.com/soumith/imagenetloader.torch/master/valprep.sh).
-
-- Classification accuracy or shift consistency can be computed by setting the `--eval_mode` flag as either `class_accuracy` or `shift_consistency`, respectively.
+To check the installation, execute the following:
+```
+make
+```
 
 ## Demo
 For notebook demonstrations of our proposed LPS (LPD and LPU) layers, please refer to the ***demo*** directory.
@@ -59,5 +55,13 @@ jupyter-notebook demo
 ```
 
 ## Results and Pre-trained models
+Our paper results can be reproduced using the scripts included in ***learn_poly_sampling/scripts***.
+
+#### Experiments on Image Classification (ImageNet)
+
+- Download the ILSVRC2012 dataset from its [official repository](https://image-net.org/challenges/LSVRC/2012/), uncompress it into the dataset folder (e.g. `/learn_poly_sampling/datasets/ILSVRC2012`) and split it into train and test partitions using [this script](https://raw.githubusercontent.com/soumith/imagenetloader.torch/master/valprep.sh).
+
+- Classification accuracy or shift consistency can be computed by setting the `--eval_mode` flag as either `class_accuracy` or `shift_consistency`, respectively.
+
 ### [Pre-trained Classification and Segmentation Models](https://uofi.box.com/s/mb2ygdziztjxxkjyybvpkumkkzgezofz)
 Please refer to the link above to download all our pre-trained classification and semantic segmentation models. Note that our evaluation scripts assume the checkpoints are stored at ***learn_poly_sampling/checkpoints/{classification, segmentation}***.
