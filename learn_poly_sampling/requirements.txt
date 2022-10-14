@@ -1,0 +1,7 @@
+nose2
+pytorch-lightning==1.4.0
+torch==1.9.0
+torchvision==0.10.0
+torchmetrics==0.6.1
+absl-py
+opencv-python==4.5.3.56

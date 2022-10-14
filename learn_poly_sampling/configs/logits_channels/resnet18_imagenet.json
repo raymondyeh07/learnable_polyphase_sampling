@@ -1,0 +1,6 @@
+{
+    "maxpool":8,
+    "layer2":16,
+    "layer3":32,
+    "layer4":64
+}
